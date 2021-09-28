@@ -24,7 +24,7 @@ The first application in which it is used is Odoo / OpenERP.
 
 The easiest way to install laposte_api:
 
-    pip install git+https://github.com/akretion/laposte_api.git
+    pip3 install git+https://github.com/Mohammadrezafah/laposte_api_py3.git
 
 #Usage
 
