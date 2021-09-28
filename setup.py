@@ -20,7 +20,7 @@ setup(
 	include_package_data = True,
 
 	# Package dependencies.
-	install_requires = ['mako', 'suds-py3', 'cookiejar'],
+	install_requires = ['cookiejar', 'mako', 'suds-py3'],
 
 	# Metadata for PyPI.
 	author = 'David Béal',
