@@ -1,1 +1,1 @@
-import colissimo_and_so
+from . import colissimo_and_so
