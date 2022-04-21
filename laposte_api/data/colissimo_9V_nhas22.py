@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: iso-8859-1 -*-
 
 delivery={'weight': '10.0', 'pec_bar': u'9V169001>59647441000000023', 'suivi_bar': u'9V0>50000000024', 'cab_prise_en_charge': u'9V1 69001 964744 1000 000023', 'date': '12/05/2014', 'cab_suivi': u'9V 00000 00002 4', 'ref_client': u'OUT/00007', 'Instructions': ''}
 
@@ -47,9 +47,9 @@ content="""/* Utf8 file encoded converted in CP1252 by python */
 ^FDCOMPTE CLIENT: 964744
 \&SITE DE PRISE EN CHARGE:
 \&Gennevilliers PFC
-\&N° Colis : 9V 00000 00002 4
+\&Nï¿½ Colis : 9V 00000 00002 4
 \&Poids   : 10.0 Kg
-\&Edité le : 12/05/2014
+\&Editï¿½ le : 12/05/2014
 ^FS
 
 
@@ -58,7 +58,7 @@ content="""/* Utf8 file encoded converted in CP1252 by python */
 ^FO40,345^PR2,2^BCN,230,Y,N,N^FD9V0>50000000024^FS
 ^FO40,575^GB402,3,4^FS
 
-^FO0,585^FDN° de colis :^FS
+^FO0,585^FDNï¿½ de colis :^FS
 
 
 /* /!\ /_\ /!\ /_\ /!\ */
@@ -81,7 +81,7 @@ content="""/* Utf8 file encoded converted in CP1252 by python */
 
 /* ||| || |||| */
 ^FO70,880^BCN,230,Y,N,N^FD9V169001>59647441000000023^FS
-^FO100,1120^FDN° PCH:^FS
+^FO100,1120^FDNï¿½ PCH:^FS
 ^FO0,1136^XGE:POSTE,1,1^FS
 ^FO720,1130^XGE:CAMERA,1,1^FS
 ^XZ

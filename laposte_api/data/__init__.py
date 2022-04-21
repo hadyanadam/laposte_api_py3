@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: iso-8859-1 -*-
 
 from . import colissimo_7Q_anht23  # noqa
 from . import colissimo_7Q_anht33  # noqa

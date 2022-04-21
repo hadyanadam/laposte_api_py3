@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: iso-8859-1 -*-
 
 delivery={'weight': '5.0', 'pec_bar': u'7Q197200>59647440500000212', 'suivi_bar': u'7Q5>53894000014', 'cab_prise_en_charge': u'7Q1 97200 964744 0500 000212', 'date': '12/05/2014', 'cab_suivi': u'7Q 53894 00001 4', 'ref_client': u'OUT/00011', 'Instructions': ''}
 
@@ -49,9 +49,9 @@ TEL: 599
 ^FDCOMPTE CLIENT: 964744
 \&SITE DE PRISE EN CHARGE:
 \&Gennevilliers PFC
-\&N° Colis : 7Q 53894 00001 4
+\&Nï¿½ Colis : 7Q 53894 00001 4
 \&Poids   : 5.0 Kg
-\&Edité le : 12/05/2014
+\&Editï¿½ le : 12/05/2014
 ^FS
 
 
@@ -60,7 +60,7 @@ TEL: 599
 ^FO40,345^PR2,2^BCN,230,Y,N,N^FD7Q5>53894000014^FS
 ^FO40,575^GB402,3,4^FS
 
-^FO0,585^FDN° de colis :^FS
+^FO0,585^FDNï¿½ de colis :^FS
 
 
 /* /!\ /_\ /!\ /_\ /!\ */
@@ -69,9 +69,9 @@ TEL: 599
 ^FO30,630^A0,30^FDDESTINATAIRE^FS
 
 ^FO5,660^GB450,200,4^FS
-^FO30,675^A0,24,28^FDLéon CAMET^FS
+^FO30,675^A0,24,28^FDLï¿½on CAMET^FS
 ^FO30,705^FB400,6,2,
-^FD3 rue d'à côté
+^FD3 rue d'ï¿½ cï¿½tï¿½
 \&
 \&^FS
 ^FO30,755
@@ -84,7 +84,7 @@ TEL: 599
 
 /* ||| || |||| */
 ^FO70,880^BCN,230,Y,N,N^FD7Q197200>59647440500000212^FS
-^FO100,1120^FDN° PCH:^FS
+^FO100,1120^FDNï¿½ PCH:^FS
 ^FO0,1136^XGE:POSTE,1,1^FS
 ^FO720,1130^XGE:CAMERA,1,1^FS
 ^XZ

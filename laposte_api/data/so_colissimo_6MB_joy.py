@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: iso-8859-1 -*-
 
 first_keys = {'prise_en_charge': u'6M1 91500 852450 0130 000037', 'tracking_ref': u'6M 00000 00003 1', 'sequence': u'6M 00000 00003'}
 
@@ -47,16 +47,16 @@ content = """/* Utf8 file encoded converted in CP1252 by python */
 ^FDCOMPTE CLIENT: 852450
 \&SITE DE PRISE EN CHARGE:
 \&TOULOUSE CAPITOUL PFC
-\&N° Colis : 6M 00000 00003 1
+\&Nï¿½ Colis : 6M 00000 00003 1
 \&Poids   : 1.3 kg
-\&Edité le : 19/11/2014
+\&Editï¿½ le : 19/11/2014
 ^FS
 
 /* ||| || |||| */
 /* >5  => is subset C invocation code ; >6  => is subset B invocation code */
 ^FO25,140^PR2,2^BCN,230,N,N,N^FD6M0>50000000031^FS
 ^FO25,370^GB402,3,4^FS  /*ligne sous code barre*/
-^FO70,380^FDN° de colis : 6M 00000 00003 1^FS
+^FO70,380^FDNï¿½ de colis : 6M 00000 00003 1^FS
 
 /* /!\ /_\ /!\ /_\ /!\ */
 
@@ -78,7 +78,7 @@ content = """/* Utf8 file encoded converted in CP1252 by python */
 /* ||| || |||| */
 /* >5  => is subset C invocation code  */
 ^FO70,650^BCN,230,N,N,N^FD6M191500>58524500130000037^FS
-^FO180,890^FDN° PCH:  6M1 91500 852450 0130 000037^FS
+^FO180,890^FDNï¿½ PCH:  6M1 91500 852450 0130 000037^FS
 ^FO0,890^XGE:POSTE,1,1^FS
 ^FO720,885^XGE:CAMERA,1,1^FS
 ^FO70,933^A0,60,80^FDBBY0^FS

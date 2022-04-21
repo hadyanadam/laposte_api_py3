@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: iso-8859-1 -*-
 
 delivery={'weight': '13.7', 'pec_bar': u'7Q197110>59647441370000241', 'suivi_bar': u'7Q5>53894000045', 'cab_prise_en_charge': u'7Q1 97110 964744 1370 000241', 'date': '12/05/2014', 'cab_suivi': u'7Q 53894 00004 5', 'ref_client': u'OUT/00014', 'Instructions': ''}
 
@@ -49,9 +49,9 @@ TEL: 599
 ^FDCOMPTE CLIENT: 964744
 \&SITE DE PRISE EN CHARGE:
 \&Gennevilliers PFC
-\&N° Colis : 7Q 53894 00004 5
+\&Nï¿½ Colis : 7Q 53894 00004 5
 \&Poids   : 13.7 Kg
-\&Edité le : 12/05/2014
+\&Editï¿½ le : 12/05/2014
 ^FS
 
 
@@ -60,7 +60,7 @@ TEL: 599
 ^FO40,345^PR2,2^BCN,230,Y,N,N^FD7Q5>53894000045^FS
 ^FO40,575^GB402,3,4^FS
 
-^FO0,585^FDN° de colis :^FS
+^FO0,585^FDNï¿½ de colis :^FS
 
 
 /* /!\ /_\ /!\ /_\ /!\ */
@@ -76,7 +76,7 @@ TEL: 599
 \&^FS
 ^FO30,755
 ^A0,40
-^FD97110 Pointe-à-Pitre^FS
+^FD97110 Pointe-ï¿½-Pitre^FS
 
 /* COLISS RULE Phone+country expediteur si Internationale */
 ^FO30,800^FDTEL: ^FS
@@ -84,7 +84,7 @@ TEL: 599
 
 /* ||| || |||| */
 ^FO70,880^BCN,230,Y,N,N^FD7Q197110>59647441370000241^FS
-^FO100,1120^FDN° PCH:^FS
+^FO100,1120^FDNï¿½ PCH:^FS
 ^FO0,1136^XGE:POSTE,1,1^FS
 ^FO720,1130^XGE:CAMERA,1,1^FS
 ^XZ

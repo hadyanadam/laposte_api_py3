@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: iso-8859-1 -*-
 
 first_keys = {'prise_en_charge': u'8Q1 97120 806951 0890 001012', 'tracking_ref': u'8Q 0000000001 7', 'sequence': u'8Q 0000000001'}
 
@@ -51,9 +51,9 @@ TEL: 04 99 99 99 99
 ^FDCOMPTE CLIENT: 806951
 \&SITE DE PRISE EN CHARGE:
 \&Cavaillon PFC
-\&N° Colis : 8Q 0000000001 7
+\&Nï¿½ Colis : 8Q 0000000001 7
 \&Poids   : 8.9 Kg
-\&Edité le : 13/07/2014
+\&Editï¿½ le : 13/07/2014
 ^FS
 
 
@@ -62,7 +62,7 @@ TEL: 04 99 99 99 99
 ^FO40,345^PR2,2^BCN,230,Y,N,N^FD8Q0>50000000017^FS
 ^FO40,575^GB402,3,4^FS
 
-^FO0,585^FDN° de colis :^FS
+^FO0,585^FDNï¿½ de colis :^FS
 
 
 /* /!\ /_\ /!\ /_\ /!\ */
@@ -86,7 +86,7 @@ TEL: 04 99 99 99 99
 
 /* ||| || |||| */
 ^FO70,880^BCN,230,Y,N,N^FD8Q197120>58069510890001012^FS
-^FO100,1120^FDN° PCH:^FS
+^FO100,1120^FDNï¿½ PCH:^FS
 ^FO0,1136^XGE:POSTE,1,1^FS
 ^FO720,1130^XGE:CAMERA,1,1^FS
 ^XZ
