@@ -348,7 +348,7 @@ class ColiPoste(AbstractLabel):
         return str(result)
 
     def get_cab_suivi(self, sequence):
-        if type(sequence) == str:
+        if type(sequence) != str:
             raise InvalidSequence("The sequence must be an str or an unicode")
         #TODO fix check
         #if not sequence.isdigit():
@@ -358,7 +358,7 @@ class ColiPoste(AbstractLabel):
 
     def get_ctrl_key(self, key):
         warning = "Invalid control key '%s' in get_ctrl_key function"
-        if type(key) == str:
+        if type(key) != str:
             raise InvalidType(warning + ": must be a string" % key)
         #extract spaces
         key = key.replace(' ', '')
