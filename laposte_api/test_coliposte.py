@@ -40,7 +40,7 @@ class ColissimoTest(unittest.TestCase):
         for elm in files:
             with open(elm['path'], 'w') as f:
                 if elm['type'] == 'script':
-                    f.write(script.content)
+                    f.write(script.content.decode())
                 else:
                     f.write(label)
         if label != script.content:
