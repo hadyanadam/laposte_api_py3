@@ -5,7 +5,7 @@ import difflib
 import inspect
 import os
 
-import unittest2
+import unittest
 from laposte_api.colissimo_and_so import ColiPoste
 from laposte_api.data import (colissimo_7Q_anht23, colissimo_7Q_anht33,
                               colissimo_7Q_camet11, colissimo_7Q_camet12,
@@ -22,7 +22,7 @@ def current_function():
     return inspect.stack()[1][3]
 
 
-class ColissimoTest(unittest2.TestCase):
+class ColissimoTest(unittest.TestCase):
 
     def setUp(self):
         pass
@@ -94,7 +94,7 @@ class ColissimoTest(unittest2.TestCase):
 
 
 def main():
-    unittest2.main()
+    unittest.main()
 
 if __name__ == '__main__':
     main()
