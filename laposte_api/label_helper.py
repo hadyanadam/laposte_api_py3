@@ -65,14 +65,14 @@ class AbstractLabel(object):
                     data = datas[field]
                     size = self.evaluate_size_according_to_type(data)
                     if key == 'max_size':
-                        self.check_type(field, [str, unicode], data)
+                        self.check_type(field, [str], data)
                         if size > val:
                             raise InvalidSize(
                                 "Max size for field '%s' is "
                                 "%s :  %s given\nCurrent field value : %s"
                                 % (field, val, size, data))
                     elif key == 'min_size':
-                        self.check_type(field, [str, unicode], data)
+                        self.check_type(field, [str], data)
                         if size < val:
                             raise InvalidSize(
                                 "Min size for field '%s' is "
@@ -139,7 +139,7 @@ class AbstractLabel(object):
     def must_be_checked(self, datas, field):
         res = True
         if field in datas:
-            if type(datas[field]) in [str, unicode, bool]:
+            if type(datas[field]) in [str, bool]:
                 if datas[field] is False:
                     res = False
         else:
@@ -149,7 +149,7 @@ class AbstractLabel(object):
     def evaluate_size_according_to_type(self, data):
         "Used to simplify the code in check_model()"
         res = ''
-        if type(data) in [str, unicode]:
+        if type(data) in [str]:
             res = len(data)
         elif type(data) in [int, float]:
             res = data
