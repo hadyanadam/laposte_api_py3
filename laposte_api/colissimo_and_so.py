@@ -480,7 +480,7 @@ class WSInternational(ColiPoste):
 
     def encode_file_data(self, data):
         try:
-            data = base64.b64decode(data).decode('utf-8')
+            data = base64.b64decode(data).decode('iso-8859-15').encode('utf8')
         except (UnicodeEncodeError, Exception) as e:
             raise Exception(e.message)
         return data.replace('^XA', '^XA\n^CI28\n^LH20,0')
